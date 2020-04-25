@@ -3,3 +3,116 @@
 
 @import "header";
 @import "footer";
+
+body {
+  background-color: #fee39e;
+}
+.hehe {
+  transform: rotate(1deg);
+  height: 113px;
+  margin-top: 15px;
+}
+.hyhy {
+  background-image: url("../img/header-image.jpg");
+  height: calc(100vh - 140px);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-box-shadow: inset 0px 0px 7px 8px rgba(254, 227, 158, 0.77);
+  -moz-box-shadow: inset 0px 0px 7px 8px rgba(254, 227, 158, 0.77);
+  box-shadow: inset 0px 0px 7px 8px rgba(254, 227, 158, 0.77);
+  opacity: 0.5;
+}
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Charm:wght@700&display=swap");
+
+nav {
+  font-family: "Dancing Script", cursive;
+  display: flex;
+  height: 140px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  /*  justify-content: space-evenly; */
+  /* width: 30rem; */
+  letter-spacing: 1px;
+  flex-grow: 1;
+  justify-content: flex-end;
+  margin-top: 3.5rem;
+}
+li {
+  margin-right: 2rem;
+  font-size: 1.5rem;
+  color: #6a8000;
+  /* color: #35ae92; */
+  font-weight: 700;
+  height: 2rem;
+  @media (min-width: 1700px) {
+    font-size: 1.7rem;
+    height: 2.2rem;
+  }
+  @media (min-width: 1900px) {
+    font-size: 1.9rem;
+    height: 2.4rem;
+  }
+}
+li:hover {
+  border-bottom: 1px solid #6a8000;
+  cursor: pointer;
+}
+
+.headings {
+  position: absolute;
+  @include center(58%, 50%, -50%, -50%);
+
+  opacity: 0;
+}
+h1 {
+  font-size: 4rem;
+  @media (min-width: 1700px) {
+    font-size: 4.5rem;
+  }
+  @media (min-width: 1900px) {
+    font-size: 5rem;
+  }
+}
+h2 {
+  font-size: 2.5rem;
+  @media (min-width: 1700px) {
+    font-size: 3rem;
+  }
+  @media (min-width: 1900px) {
+    font-size: 3.5rem;
+  }
+}
+h1,
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  font-family: "Charm", cursive;
+  white-space: nowrap;
+  /* color: #dd0b0b; */
+  color: #6a8000;
+}
+.backgroundDiv {
+  opacity: 0;
+  height: 15rem;
+  width: 60rem;
+  @media (min-width: 1700px) {
+    width: 70rem;
+    height: 17.5rem;
+  }
+  @media (min-width: 1900px) {
+    width: 80rem;
+    height: 20rem;
+  }
+  background-color: #fee39e;
+  position: absolute;
+  @include center(58%, 50%, -50%, -50%);
+  border-radius: 50px;
+  -webkit-box-shadow: 0px 0px 16px 20px rgba(254, 227, 158, 1);
+  -moz-box-shadow: 0px 0px 16px 20px rgba(254, 227, 158, 1);
+  box-shadow: 0px 0px 16px 20px rgba(254, 227, 158, 1);
+}
