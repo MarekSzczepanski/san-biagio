@@ -1,0 +1,93 @@
+@media (min-width: 1200px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .headerImgContainer {
+    position: relative;
+    width: 70vw;
+    height: 750px;
+    background-image: url("../assets/svg/sanbiagio-background3.svg");
+    background-position: -105px -205px;
+    background-repeat: no-repeat;
+  }
+  .logoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 4vw;
+    bottom: 5rem;
+    height: 170px;
+    padding: 10px;
+    border: 2px solid $color2;
+    border-radius: 50%;
+    background-color: #fee39e;
+  }
+  .logo {
+    height: 80%;
+    margin: 10px auto;
+    border-radius: 50%;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 32vw;
+    height: 100vh;
+    background-color: $color1;
+    border-left: 1px solid $color2;
+  }
+  .rope {
+    width: 100%;
+    margin: 1.2rem 0;
+  }
+  ul {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+    width: 100%;
+  }
+  li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 165px;
+    height: 165px;
+    margin: 1vw 0;
+    border-radius: 50%;
+    list-style-type: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    &:hover {
+      cursor: pointer;
+      font-weight: 600;
+    }
+  }
+  .liOlive {
+    color: #fff;
+    background-color: $olive;
+  }
+  .liBlue {
+    color: #fff;
+    background-color: $blue;
+  }
+  .liSea {
+    background-color: $sea;
+  }
+  .liSand {
+    background-color: $sand;
+  }
+  .liGreen {
+    color: #fff;
+    background-color: $green;
+  }
+  .liSkyBlue {
+    color: #fff;
+    background-color: $skyBlue;
+  }
+}

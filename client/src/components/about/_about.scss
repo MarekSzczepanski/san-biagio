@@ -1,0 +1,49 @@
+.aboutSection {
+  position: relative;
+  width: 45vw;
+  margin-right: 0;
+  margin-left: 0;
+  border: none;
+}
+
+div h1 {
+  text-align: left;
+}
+.aboutImg {
+  position: absolute;
+  right: -5rem;
+}
+.aboutH6 {
+  margin-top: 3rem;
+  padding: 0;
+  font-family: "Great Vibes", cursive;
+  font-size: 1.5rem;
+  text-align: right;
+  text-transform: unset;
+  letter-spacing: 2px;
+  /* color: $color1; */
+}
+.aboutP {
+  width: 45vw;
+  padding-right: $space1;
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+@media (min-width: 1400px) {
+  .aboutH6 {
+    margin-top: 3.4rem;
+    font-size: 1.7rem;
+  }
+}
+@media (min-width: 1600px) {
+  .aboutH6 {
+    margin-top: 4.4rem;
+    font-size: 1.9rem;
+  }
+}
+@media (min-width: 1800px) {
+  .aboutH6 {
+    margin-top: 4.8rem;
+    font-size: 2.2rem;
+  }
+}
