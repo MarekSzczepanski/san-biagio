@@ -22,10 +22,10 @@ class Header extends React.Component {
           <ul>
             <li className="liOlive">o nas</li>
             <li className="liBlue">menu</li>
-            <li className="liSea">restauracja</li>
+            <li className="liSea">opinie</li>
             <li className="liSand">kontakt</li>
-            <li className="liGreen">galeria</li>
-            <li className="liSkyBlue">lokalizacja</li>
+            <li className="liGreen">lokalizacja</li>
+            <li className="liSkyBlue">galeria</li>
           </ul>
           <img className="rope" src={rope} alt="sanbiagio-rope" />
         </nav>

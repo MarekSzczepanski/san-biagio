@@ -1,29 +1,32 @@
 .menuSection {
-  padding: 0;
   position: relative;
+  padding: 0;
   & h2 {
     position: absolute;
     top: $space1;
     left: 50vw;
     transform: translateX(-50%);
     z-index: 2;
-    color: #f63619;
+    color: $color3;
   }
 }
 .sliderWrap {
+  position: relative;
   height: 100vh;
-  padding: 10vw $space1 0;
+  min-height: 700px;
+  padding: 8rem $space1 0;
   background-image: url("../assets/jpg/menu.jpg");
   background-size: cover;
+  background-position: right center;
   opacity: 0.8;
   color: white;
 }
 .slideWrap {
-  width: 59vw;
+  width: 40rem;
   margin-left: $space1;
 }
 h4 {
-  padding: 0 0 2vw 8vw;
+  padding: 0 0 1.5rem 8vw;
   font-family: "Great Vibes", cursive;
   font-size: 2.5rem;
   letter-spacing: 3px;
@@ -38,11 +41,11 @@ h6 {
   /* letter-spacing: 1px; */
 }
 .menuH6MarginTop {
-  margin-top: 2vw;
+  margin-top: 1.5rem;
 }
 .breakfastH6 {
-  margin: 0 0 2vw 6.5vw;
-  color: #f63619;
+  margin: 0 0 1.5rem 6.5vw;
+  color: $color3;
 }
 .menuH6Price {
   float: right;

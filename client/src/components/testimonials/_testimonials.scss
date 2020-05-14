@@ -1,0 +1,111 @@
+.testimonialsSection {
+  position: relative;
+  height: 100vh;
+  background-color: $color3;
+}
+.testimonialsH3 {
+  color: $color1;
+}
+.testimonialsWrap {
+  position: absolute;
+  top: 55vh;
+  left: 25vw;
+  width: 50vw;
+  transform: translateY(-50%);
+}
+.clientName {
+  font-size: 1.4rem;
+  text-align: center;
+  color: $color2;
+}
+.clientPhoto {
+  width: 25%;
+  /* margin-bottom: 1.2rem; */
+  border: solid 2px $color2;
+  border-radius: 50%;
+}
+.testimonialsText {
+  max-width: 70%;
+  font-family: "EB Garamond", serif;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  font-style: italic;
+  text-align: center;
+  text-align-last: center;
+  letter-spacing: 1px;
+  font-weight: 700;
+  color: $color2;
+}
+.testimonialsCircle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border-radius: 50%;
+  background-color: $color1;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+#testimonialsCircle1 {
+  top: 80%;
+  left: -10vw;
+  width: 8rem;
+  height: 8rem;
+  &:hover {
+    background-color: $olive;
+  }
+}
+#testimonialsCircle2 {
+  top: 67%;
+  left: -21vw;
+  width: 5rem;
+  height: 5rem;
+  &:hover {
+    background-color: $blue;
+  }
+}
+#testimonialsCircle3 {
+  // big circle
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 32rem;
+  height: 32rem;
+  margin: 0 auto;
+  padding: 1rem 0;
+  border-radius: 50%;
+  background-color: $color1;
+}
+#testimonialsCircle4 {
+  top: 11%;
+  left: 50vw;
+  width: 9rem;
+  height: 9rem;
+  &:hover {
+    background-color: $sea;
+  }
+}
+#testimonialsCircle5 {
+  top: -6%;
+  left: 64vw;
+  width: 7rem;
+  height: 7rem;
+  &:hover {
+    background-color: $sand;
+  }
+}
+#testimonialsCircle6 {
+  top: -20%;
+  left: 58vw;
+  width: 4rem;
+  height: 4rem;
+  &:hover {
+    background-color: $skyBlue;
+  }
+}
+.clientPhotoSmall {
+  width: 70%;
+  border: 2px solid $color2;
+  border-radius: 50%;
+}

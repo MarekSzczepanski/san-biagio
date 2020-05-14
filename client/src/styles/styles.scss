@@ -4,6 +4,7 @@
 @import "../components/header/header";
 @import "../components/about/about";
 @import "../components/menu/menu";
+@import "../components/testimonials/testimonials";
 
 @import "../components/menu/slider-arrows.scss";
 
@@ -22,12 +23,17 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
   margin-bottom: 1vw;
   font-family: "Berkshire Swash", cursive;
   font-size: 3rem;
   text-align: center;
   color: $color2;
+}
+
+p {
+  letter-spacing: 1px;
 }
 
 p,
