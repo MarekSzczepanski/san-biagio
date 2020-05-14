@@ -1,0 +1,51 @@
+.sliderArrow {
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  top: 16vw;
+  position: absolute;
+  cursor: pointer;
+  z-index: 3;
+}
+#arrowLeft,
+.sliderDotWrap {
+  left: 2.3vw;
+}
+#arrowRight {
+  left: 69.3vw;
+}
+
+@media (min-width: 1200px) {
+  .sliderArrow {
+    top: 50vh;
+    transform: translateY(-50%);
+  }
+  /* .sliderDotWrap {
+    top: 36vw;
+    left: 12vw;
+    z-index: 3;
+  } */
+}
+@media (min-width: 1500px) {
+  .sliderArrow {
+    top: 21.3vw;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  /*  .sliderDotWrap {
+    top: 36.5vw;
+  } */
+}
+@media (min-width: 1600px) {
+  .sliderArrow {
+    width: 3rem;
+    height: 3rem;
+  }
+  .sliderDot {
+    top: 34vw;
+    width: 1rem;
+    height: 1rem;
+    margin-left: 0.3rem; // //
+    border: solid 3px $color2;
+  }
+}
