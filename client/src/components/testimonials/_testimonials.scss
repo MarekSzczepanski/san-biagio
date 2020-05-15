@@ -47,21 +47,21 @@
   cursor: pointer;
 }
 #testimonialsCircle1 {
-  top: 80%;
-  left: -10vw;
-  width: 8rem;
-  height: 8rem;
-  &:hover {
-    background-color: $olive;
-  }
-}
-#testimonialsCircle2 {
   top: 67%;
   left: -21vw;
   width: 5rem;
   height: 5rem;
   &:hover {
     background-color: $blue;
+  }
+}
+#testimonialsCircle2 {
+  top: 80%;
+  left: -10vw;
+  width: 8rem;
+  height: 8rem;
+  &:hover {
+    background-color: $olive;
   }
 }
 #testimonialsCircle3 {
