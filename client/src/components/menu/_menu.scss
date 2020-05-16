@@ -43,13 +43,18 @@ h6 {
 .menuH6MarginTop {
   margin-top: 1.5rem;
 }
-.breakfastH6 {
+.menuSection .breakfastH6 {
   margin: 0 0 1.5rem 6.5vw;
   color: $color3;
 }
 .menuH6Price {
   float: right;
   font-weight: 400;
+}
+.menuP,
+.menuSection h6,
+.menuSection h4 {
+  color: $color1;
 }
 .menuP,
 .menuH6Price {
@@ -68,8 +73,4 @@ h6 {
 }
 .menuPrice {
   float: right;
-}
-.sliderArror {
-  position: absolute;
-  z-index: 2;
 }

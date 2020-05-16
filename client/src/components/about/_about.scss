@@ -21,13 +21,14 @@ div h1 {
   text-align: right;
   text-transform: unset;
   letter-spacing: 2px;
-  /* color: $color1; */
+  color: $color2;
 }
 .aboutP {
   width: 45vw;
   padding-right: $space1;
   line-height: 2rem;
   font-size: 1.2rem;
+  color: #111;
 }
 @media (min-width: 1400px) {
   .aboutH6 {

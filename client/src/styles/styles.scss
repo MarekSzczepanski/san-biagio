@@ -5,8 +5,9 @@
 @import "../components/about/about";
 @import "../components/menu/menu";
 @import "../components/testimonials/testimonials";
+@import "../components/contact/contact";
 
-@import "../components/menu/slider-arrows.scss";
+@import "../components/menu/slider-arrows";
 
 @import "footer";
 
@@ -55,6 +56,5 @@ li {
 
 section {
   padding: $space1;
-  border-bottom: 1px solid $color2;
   background-color: $color1;
 }

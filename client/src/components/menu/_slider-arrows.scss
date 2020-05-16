@@ -9,14 +9,14 @@
 }
 #menuArrowLeft,
 .sliderDotWrap {
-  left: calc(-4rem + 8vw);
+  left: calc(-4.5rem + 8vw);
 }
 #testimonialsArrowLeft {
   top: 55%;
   left: calc(50vw - 23rem);
 }
 #menuArrowRight {
-  left: calc(42rem + 8vw);
+  left: calc(42.5rem + 8vw);
 }
 #testimonialsArrowRight {
   top: 55%;
@@ -25,7 +25,7 @@
 
 @media (min-width: 1200px) {
   .sliderArrow {
-    top: 50%;
+    top: 60%;
     transform: translateY(-50%);
   }
   /* .sliderDotWrap {

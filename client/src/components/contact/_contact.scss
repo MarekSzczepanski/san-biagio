@@ -1,0 +1,98 @@
+.contactSection {
+  position: relative;
+  height: 100vh;
+  background-color: $color1;
+}
+.contactH3 {
+  color: $color3;
+}
+.contactWrap {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background-color: $color3;
+  border: solid 2px $color2;
+}
+.map {
+  width: $contactCircleDiameter1200;
+  height: $contactCircleDiameter1200;
+  border-radius: 50%;
+  opacity: 0.75;
+}
+.map div {
+  border-radius: 50%;
+}
+.map div .gm-style-mtc div {
+  border-radius: 0;
+  opacity: 0;
+}
+.contactP {
+  font-size: 1.2rem;
+}
+.bold {
+  font-weight: bold;
+}
+.contactIconWrap {
+  display: flex;
+  position: absolute;
+}
+.contactTextOnlyWrap {
+  position: absolute;
+  white-space: nowrap;
+}
+.contactIcon {
+  margin: 0.2rem 0.5rem 0 0;
+}
+#phoneIcon {
+  top: 2rem;
+  left: $contactPhoneAndEnvelopeSpace1200;
+}
+#envelopeIcon {
+  top: 5rem;
+  left: calc(#{$contactPhoneAndEnvelopeSpace1200 + -6.5rem});
+}
+#companyName {
+  top: 2rem;
+  left: calc(#{$contactCircleDiameter1200 - 0.5rem});
+}
+#adress {
+  top: 5rem;
+  left: calc(#{$contactCircleDiameter1200 + 1.6rem});
+}
+#REGON {
+  bottom: 2rem;
+  left: calc(#{$contactREGONandNIPspace1200} - 0.3rem);
+}
+#NIP {
+  bottom: 5rem;
+  left: calc(#{$contactPhoneAndEnvelopeSpace1200 + -3.7rem});
+}
+#accountNumberHeading {
+  bottom: 5rem;
+  left: calc(#{$contactCircleDiameter1200 + 1.6rem});
+}
+#accountNumber {
+  bottom: 2rem;
+  left: calc(#{$contactCircleDiameter1200} - 0.4rem);
+  & p {
+    font-size: 1.1rem;
+  }
+}
+#accountSwift {
+  bottom: 3.5rem;
+  left: calc(#{$contactCircleDiameter1200 + 0.6rem});
+}
+.contactOliveBranch {
+  position: absolute;
+  top: 34%;
+  width: 14rem;
+}
+#branchLeft {
+  left: -16rem;
+  transform: scale(-1, 1);
+}
+#branchRight {
+  left: 33.8rem;
+}

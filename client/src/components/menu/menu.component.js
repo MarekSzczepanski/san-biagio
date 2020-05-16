@@ -2,7 +2,6 @@ import React from "react";
 import "../../styles/styles.scss";
 import { ReactComponent as ArrowLeft } from "../../assets/svg/sanbiagio-ostroda-left-arrow.svg";
 import { ReactComponent as ArrowRight } from "../../assets/svg/sanbiagio-ostroda-right-arrow.svg";
-
 class Menu extends React.Component {
   render() {
     return (
