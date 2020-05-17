@@ -1,6 +1,7 @@
 import React from "react";
 import "../../styles/styles.scss";
 import animation from "../../modules/animation";
+import background from "../../assets/svg/sanbiagio-background3.svg";
 import logo from "../../img/logo10.png";
 import rope from "../../assets/png/rope.png";
 
@@ -12,10 +13,13 @@ class Header extends React.Component {
   render() {
     return (
       <header>
-        <div data-header-img className="headerImgContainer">
-          <div className="logoContainer">
-            <img className="logo" src={logo} alt="sanbiagio-logo" />
-          </div>
+        <img
+          className="headerBackground"
+          src={background}
+          alt="sanbiagio-background"
+        />
+        <div className="logoContainer">
+          <img className="logo" src={logo} alt="sanbiagio-logo" />
         </div>
         <nav>
           <img className="rope" src={rope} alt="sanbiagio-rope" />
@@ -27,7 +31,12 @@ class Header extends React.Component {
             <li className="liGreen">lokalizacja</li>
             <li className="liSkyBlue">galeria</li>
           </ul>
-          <img className="rope" src={rope} alt="sanbiagio-rope" />
+          <img
+            className="rope"
+            id="ropeBottom"
+            src={rope}
+            alt="sanbiagio-rope"
+          />
         </nav>
       </header>
     );

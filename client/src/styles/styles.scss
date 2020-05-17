@@ -56,6 +56,14 @@ li {
     border: 2px solid $color2;
     border-radius: 40px;
   }
+  @media (min-width: 1200px) {
+    position: relative;
+    z-index: 2;
+    margin-top: -50px;
+  }
+  @media (min-width: 1400px) {
+    margin-top: -60px;
+  }
 }
 
 section {
