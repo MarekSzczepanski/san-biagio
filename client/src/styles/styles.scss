@@ -6,10 +6,10 @@
 @import "../components/menu/menu";
 @import "../components/testimonials/testimonials";
 @import "../components/contact/contact";
+@import "../components/contact/map/map"; // nest
+@import "../components/footer/footer";
 
-@import "../components/menu/slider-arrows";
-
-@import "footer";
+@import "slider-arrows";
 
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,600;1,400&family=Great+Vibes:wght@400&family=Berkshire+Swash&family=Lato:wght@400;700&display=swap");
 
@@ -21,6 +21,10 @@
 
 body {
   background-color: #fefefe;
+}
+
+.wrap {
+  position: relative;
 }
 
 h1,

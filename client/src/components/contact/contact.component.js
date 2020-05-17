@@ -1,6 +1,6 @@
 import React from "react";
 import "../../styles/styles.scss";
-import Map from "./map.component";
+import Map from "./map/map.component";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhoneAlt } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
@@ -10,7 +10,7 @@ class Contact extends React.Component {
   render() {
     return (
       <section className="contactSection">
-        <h3 className="contactH3">Kontakt</h3>
+        <h3>Kontakt</h3>
         <div className="contactWrap">
           <div className="contactIconWrap" id="phoneIcon">
             <FontAwesomeIcon className="contactIcon" icon={faPhoneAlt} />

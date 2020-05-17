@@ -1,0 +1,22 @@
+.contactWrap {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background-color: $color2;
+  border: solid 2px $color2;
+}
+.map {
+  width: $contactCircleDiameter1200;
+  height: $contactCircleDiameter1200;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+.map div {
+  border-radius: 50%;
+}
+.map div .gm-style-mtc div {
+  border-radius: 0;
+  opacity: 0;
+}

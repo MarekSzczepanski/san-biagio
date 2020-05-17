@@ -1,0 +1,27 @@
+footer {
+  height: 3.7vw;
+  background-color: $color2;
+}
+.footerText {
+  line-height: 3.7vw;
+  font-size: 0.8rem;
+  text-align: center;
+  letter-spacing: 2px;
+  color: $color1;
+}
+.footerCopyright {
+  margin-right: 0.3rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+.footerNumber {
+  margin-left: 0.2rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+}
+@media (min-width: 1700px) {
+  .footerText {
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+  }
+}
