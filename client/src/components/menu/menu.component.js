@@ -25,40 +25,67 @@ class Menu extends React.Component {
             <p className="menuP">
               na maśle
               <span className="menuDots">
-                ......................................
+                .................................................
+                <span id="media1400">...</span>
+                <span id="media1600">..</span>
+                <span id="media1750">...</span>
+                <span id="media1900">..</span>
               </span>
               <span className="menuPrice">11,00 zł</span>
             </p>
             <p className="menuP">
               z szynką lub boczkiem
-              <span className="menuDots">.............................</span>
+              <span className="menuDots">
+                .....................................
+                <span id="media1400">..</span>
+                <span id="media1600">..</span>
+                <span id="media1750">..</span>
+                <span id="media1900">..</span>
+              </span>
               <span className="menuPrice">13,00 zł</span>
             </p>
             <h6 className="menuH6MarginTop">Naleśniki - 2 sztuki</h6>
             <p className="menuP">
               z serem
               <span className="menuDots">
-                .......................................
+                ...................................................
+                <span id="media1400">...</span>
+                <span id="media1600">..</span>
+                <span id="media1750">...</span>
+                <span id="media1900">..</span>
               </span>
               <span className="menuPrice">12,00 zł</span>
             </p>
             <p className="menuP">
               z dżemem
               <span className="menuDots">
-                .....................................
+                ................................................
+                <span id="media1400">...</span>
+                <span id="media1600">..</span>
+                <span id="media1750">...</span>
+                <span id="media1900">..</span>
               </span>
               <span className="menuPrice">12,00 zł</span>
             </p>
             <p className="menuP">
               z owocami
               <span className="menuDots">
-                .....................................
+                ................................................
+                <span id="media1400">...</span>
+                <span id="media1600">..</span>
+                <span id="media1750">...</span>
+                <span id="media1900">..</span>
               </span>
               <span className="menuPrice">15,00 zł</span>
             </p>
             <h6 className="menuH6MarginTop">
               62. Frittata (włoski omlet z brokułami)
-              <span className="menuDots">...................</span>
+              <span className="menuDots">
+                ........................<span id="media1400">.</span>
+                <span id="media1600">.</span>
+                <span id="media1750">.</span>
+                <span id="media1900">.</span>
+              </span>
               <span className="menuH6Price">16,00 zł</span>
             </h6>
             <h6 className="menuH6MarginTop">

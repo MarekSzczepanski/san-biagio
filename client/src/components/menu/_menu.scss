@@ -12,7 +12,6 @@
 }
 .sliderWrap {
   position: relative;
-  height: 100vh;
   min-height: 700px;
   padding: 8rem $space1 0;
   background-image: url("../assets/jpg/menu.jpg");
@@ -32,13 +31,10 @@ h4 {
   letter-spacing: 3px;
 }
 h6 {
-  /* font-family: "EB Garamond", serif; */
-  /* font-family: "Lato", sans-serif; */
   font-family: "Quattrocento", serif;
   font-size: 1.2rem;
   font-weight: 800;
   line-height: 2rem;
-  /* letter-spacing: 1px; */
 }
 .menuH6MarginTop {
   margin-top: 1.5rem;
@@ -67,10 +63,110 @@ h6 {
 .menuDots {
   padding-left: 0.3rem;
   font-family: "EB Garamond", serif;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.3rem;
   font-style: italic;
   font-weight: 400;
 }
+
 .menuPrice {
   float: right;
+}
+#media1400,
+#media1600,
+#media1750,
+#media1900 {
+  display: none;
+}
+@media (min-width: 1400px) {
+  h4 {
+    font-size: 3rem;
+  }
+  .sliderWrap {
+    padding-bottom: 10rem;
+  }
+  .slideWrap {
+    width: 46rem;
+  }
+  h6 {
+    line-height: 2.5rem;
+    font-size: 1.4rem;
+  }
+  .menuP,
+  .menuH6Price {
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+  }
+  #media1400 {
+    display: inline;
+  }
+}
+@media (min-width: 1600px) {
+  h4 {
+    font-size: 3.2rem;
+  }
+  .sliderWrap {
+    padding-top: 11rem;
+  }
+  .slideWrap {
+    width: 49rem;
+  }
+  h6 {
+    font-size: 1.5rem;
+  }
+  .menuP,
+  .menuH6Price {
+    font-size: 1.6rem;
+  }
+  #media1600 {
+    display: inline;
+  }
+}
+@media (min-width: 1750px) {
+  h4 {
+    font-size: 3.6rem;
+  }
+  .sliderWrap {
+    padding-top: 14rem;
+  }
+  .slideWrap {
+    width: 55rem;
+  }
+  h6 {
+    line-height: 2.8rem;
+    font-size: 1.7rem;
+  }
+  .menuP,
+  .menuH6Price {
+    line-height: 2.8rem;
+    font-size: 1.8rem;
+  }
+  #media1750 {
+    display: inline;
+  }
+}
+@media (min-width: 1900px) {
+  .sliderWrap {
+    padding-bottom: 13rem;
+  }
+  h4 {
+    font-size: 3.8rem;
+  }
+  .sliderWrap {
+    padding-top: 16rem;
+  }
+  .slideWrap {
+    width: 63rem;
+  }
+  h6 {
+    line-height: 3rem;
+    font-size: 1.9rem;
+  }
+  .menuP,
+  .menuH6Price {
+    line-height: 3rem;
+    font-size: 2rem;
+  }
+  #media1900 {
+    display: inline;
+  }
 }
