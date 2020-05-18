@@ -10,6 +10,11 @@ class Header extends React.Component {
     animation(document.querySelectorAll("li"), "scale", 0, 0.8, 0.5);
     animation(document.querySelector("[data-header-img]"), "opacity", 0.1, 5);
   }
+  scrollToSection = (e) => {
+    document
+      .querySelector("." + e.target.id + "Section")
+      .scrollIntoView({ behavior: "smooth" });
+  };
   render() {
     return (
       <header>
@@ -24,12 +29,32 @@ class Header extends React.Component {
         <nav>
           <img className="rope" src={rope} alt="sanbiagio-rope" />
           <ul>
-            <li className="liOlive">o nas</li>
-            <li className="liBlue">menu</li>
-            <li className="liSea">opinie</li>
-            <li className="liSand">kontakt</li>
-            <li className="liGreen">lokalizacja</li>
-            <li className="liSkyBlue">galeria</li>
+            <li onClick={this.scrollToSection} className="liOlive" id="about">
+              o nas
+            </li>
+            <li onClick={this.scrollToSection} className="liBlue" id="menu">
+              menu
+            </li>
+            <li
+              onClick={this.scrollToSection}
+              className="liSea"
+              id="testimonials"
+            >
+              opinie
+            </li>
+            <li onClick={this.scrollToSection} className="liSand" id="contact">
+              kontakt
+            </li>
+            <li onClick={this.scrollToSection} className="liGreen" id="contact">
+              lokalizacja
+            </li>
+            <li
+              onClick={this.scrollToSection}
+              className="liSkyBlue"
+              id="contact"
+            >
+              galeria
+            </li>
           </ul>
           <img
             className="rope"
