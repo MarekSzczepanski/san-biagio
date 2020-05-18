@@ -19,7 +19,7 @@ const animation = (
       0
     );
   } else if (propertyToAnimate === "opacity") {
-    TweenLite.from(
+    TweenLite.to(
       animationTarget,
       {
         opacity: propertyValue,
