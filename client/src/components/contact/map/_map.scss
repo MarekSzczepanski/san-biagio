@@ -21,8 +21,12 @@
   opacity: 0;
 }
 @media (min-width: 1400px) {
+  .contactSection {
+    height: calc(100vh + 3rem);
+  }
   .contactWrap {
-    margin-top: 1rem;
+    top: 53%;
+    margin-top: 2rem;
   }
   .map {
     width: $contactCircleDiameter1400;
