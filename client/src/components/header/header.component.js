@@ -4,23 +4,12 @@ import animation from "../../modules/animation";
 import background from "../../assets/svg/sanbiagio-background3.svg";
 import logo from "../../img/logo10.png";
 import rope from "../../assets/png/rope.png";
-import { TweenLite } from "gsap";
 
 class Header extends React.Component {
   componentDidMount() {
     animation(document.querySelectorAll("li"), "scale", 0, 0.8, 0.5);
-    /* animation(document.querySelector(".headerBackground"), "opacity", 0, 4); */
+    animation(document.querySelector(".headerBackground"), "opacity", 0, 3);
     animation(document.querySelector(".logoContainer"), "opacity", 0, 3, 1);
-
-    TweenLite.from(
-      document.querySelector(".headerBackground"),
-      {
-        opacity: 0,
-        duration: 4,
-        delay: 3,
-      },
-      0
-    );
   }
   scrollToSection = (e) => {
     document
