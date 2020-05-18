@@ -20,7 +20,7 @@
 }
 #testimonialsArrowRight {
   top: 55%;
-  right: calc(50vw - 23rem);
+  right: calc(50vw - 24.5rem);
 }
 
 @media (min-width: 1200px) {
@@ -32,6 +32,9 @@
 @media (min-width: 1400px) {
   #menuArrowRight {
     left: calc(48.5rem + 8vw);
+  }
+  #testimonialsArrowRight {
+    right: calc(50vw - 24.5rem);
   }
 }
 @media (min-width: 1600px) {
@@ -46,6 +49,12 @@
   #menuArrowRight {
     left: calc(51.7rem + 8vw);
   }
+  #testimonialsArrowLeft {
+    left: calc(50vw - 25rem);
+  }
+  #testimonialsArrowRight {
+    right: calc(50vw - 26.5rem);
+  }
 }
 @media (min-width: 1750px) {
   .sliderArrow {
@@ -56,10 +65,15 @@
   #menuArrowRight {
     left: calc(57.5rem + 8vw);
   }
+  #testimonialsArrowLeft {
+    left: calc(50vw - 27rem);
+  }
+  #testimonialsArrowRight {
+    right: calc(50vw - 28.5rem);
+  }
 }
 @media (min-width: 1900px) {
   .sliderArrow {
-    top: 60%;
     width: 3.5rem;
     height: 3.5rem;
   }
@@ -68,5 +82,12 @@
   }
   #menuArrowRight {
     left: calc(66rem + 8vw);
+  }
+  #testimonialsArrowLeft {
+    top: 55%;
+    left: calc(50vw - 29rem);
+  }
+  #testimonialsArrowRight {
+    right: calc(50vw - 30.5rem);
   }
 }

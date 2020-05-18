@@ -20,7 +20,6 @@
 }
 .clientPhoto {
   width: 25%;
-  /* margin-bottom: 1.2rem; */
   border: solid 2px $color2;
   border-radius: 50%;
 }
@@ -108,4 +107,217 @@
   width: 70%;
   border: 2px solid $color2;
   border-radius: 50%;
+}
+@media (min-width: 1400px) {
+  #testimonialsCircle1 {
+    width: 6rem;
+    height: 6rem;
+  }
+  #testimonialsCircle2 {
+    width: 9rem;
+    height: 9rem;
+  }
+  #testimonialsCircle3 {
+    // big circle
+    width: 33rem;
+    height: 33rem;
+  }
+  .clientPhoto {
+    width: 30%;
+  }
+  .clientName,
+  .testimonialsText {
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+  }
+  #testimonialsCircle4 {
+    width: 10rem;
+    height: 10rem;
+  }
+  #testimonialsCircle5 {
+    width: 8rem;
+    height: 8rem;
+  }
+  #testimonialsCircle6 {
+    width: 5rem;
+    height: 5rem;
+  }
+  .clientPhotoSmall {
+    width: 75%;
+  }
+}
+@media (min-width: 1500px) {
+  #testimonialsCircle1 {
+    width: 6.5rem;
+    height: 6.5rem;
+  }
+  #testimonialsCircle2 {
+    width: 9.5rem;
+    height: 9.5rem;
+  }
+  #testimonialsCircle3 {
+    // big circle
+    width: 35rem;
+    height: 35rem;
+  }
+  .clientPhoto {
+    width: 32.5%;
+  }
+  .clientName,
+  .testimonialsText {
+    font-size: 1.7rem;
+    line-height: 2.4rem;
+  }
+  #testimonialsCircle4 {
+    width: 10.5rem;
+    height: 10.5rem;
+  }
+  #testimonialsCircle5 {
+    width: 8.5rem;
+    height: 8.5rem;
+  }
+  #testimonialsCircle6 {
+    width: 5.5rem;
+    height: 5.5rem;
+  }
+  .clientPhotoSmall {
+    width: 77.5%;
+  }
+}
+@media (min-width: 1600px) {
+  #testimonialsCircle1 {
+    width: 7rem;
+    height: 7rem;
+  }
+  #testimonialsCircle2 {
+    width: 10rem;
+    height: 10rem;
+  }
+  #testimonialsCircle3 {
+    // big circle
+    width: 37rem;
+    height: 37rem;
+  }
+  .clientPhoto {
+    width: 35%;
+  }
+  .clientName,
+  .testimonialsText {
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+  }
+  #testimonialsCircle4 {
+    width: 11rem;
+    height: 11rem;
+  }
+  #testimonialsCircle5 {
+    width: 9rem;
+    height: 9rem;
+  }
+  #testimonialsCircle6 {
+    width: 6rem;
+    height: 6rem;
+  }
+}
+@media (min-width: 1700px) {
+  #testimonialsCircle1 {
+    width: 7.5rem;
+    height: 7.5rem;
+  }
+  #testimonialsCircle2 {
+    width: 10.5rem;
+    height: 10.5rem;
+  }
+  #testimonialsCircle3 {
+    // big circle
+    width: 39rem;
+    height: 39rem;
+  }
+  .clientPhoto {
+    width: 37.5%;
+  }
+  .clientName,
+  .testimonialsText {
+    font-size: 1.9rem;
+    line-height: 2.8rem;
+  }
+  #testimonialsCircle4 {
+    width: 11.5rem;
+    height: 11.5rem;
+  }
+  #testimonialsCircle5 {
+    width: 9.5rem;
+    height: 9.5rem;
+  }
+  #testimonialsCircle6 {
+    width: 6.5rem;
+    height: 6.5rem;
+  }
+}
+@media (min-width: 1800px) {
+  #testimonialsCircle1 {
+    width: 8rem;
+    height: 8rem;
+  }
+  #testimonialsCircle2 {
+    width: 11rem;
+    height: 11rem;
+  }
+  #testimonialsCircle3 {
+    // big circle
+    width: 41rem;
+    height: 41rem;
+  }
+  .clientPhoto {
+    width: 38%;
+  }
+  .clientName,
+  .testimonialsText {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  #testimonialsCircle4 {
+    width: 12rem;
+    height: 12rem;
+  }
+  #testimonialsCircle5 {
+    width: 10rem;
+    height: 10rem;
+  }
+  #testimonialsCircle6 {
+    width: 7rem;
+    height: 7rem;
+  }
+}
+@media (min-width: 1900px) {
+  #testimonialsCircle1 {
+    width: 8.5rem;
+    height: 8.5rem;
+  }
+  #testimonialsCircle2 {
+    width: 11.5rem;
+    height: 11.5rem;
+  }
+  #testimonialsCircle3 {
+    // big circle
+    width: 43rem;
+    height: 43rem;
+  }
+  .clientName,
+  .testimonialsText {
+    font-size: 2.2rem;
+    line-height: 3.2rem;
+  }
+  #testimonialsCircle4 {
+    width: 12.5rem;
+    height: 12.5rem;
+  }
+  #testimonialsCircle5 {
+    width: 10.5rem;
+    height: 10.5rem;
+  }
+  #testimonialsCircle6 {
+    width: 7.5rem;
+    height: 7.5rem;
+  }
 }
