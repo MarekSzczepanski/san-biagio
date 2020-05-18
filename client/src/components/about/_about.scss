@@ -3,9 +3,9 @@
   width: 45vw;
   margin-right: 0;
   margin-left: 0;
+  padding-left: 0;
   border: none;
 }
-
 div h1 {
   text-align: left;
 }
@@ -25,7 +25,6 @@ div h1 {
 }
 .aboutP {
   width: 45vw;
-  padding-right: $space1;
   line-height: 2rem;
   font-size: 1.2rem;
   color: #111;

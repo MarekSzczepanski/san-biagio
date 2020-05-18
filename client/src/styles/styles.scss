@@ -48,11 +48,14 @@ li {
 
 .aboutAndPhotoWrap {
   display: flex;
-  padding-left: $space1;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 $space1;
   background-color: $color1;
   border-top: 1px solid $color2;
   & .restaurantPhoto {
-    margin: $space1;
+    margin-left: $space1;
+    height: 35vw;
     border: 2px solid $color2;
     border-radius: 40px;
   }
@@ -63,6 +66,29 @@ li {
   }
   @media (min-width: 1400px) {
     margin-top: -60px;
+    & .restaurantPhoto {
+      height: 30vw;
+    }
+  }
+  @media (min-width: 1500px) {
+    & .restaurantPhoto {
+      height: 28vw;
+    }
+  }
+  @media (min-width: 1650px) {
+    & .restaurantPhoto {
+      height: 26vw;
+    }
+  }
+  @media (min-width: 1750px) {
+    & .restaurantPhoto {
+      height: 24vw;
+    }
+  }
+  @media (min-width: 2000px) {
+    & .restaurantPhoto {
+      height: 22vw;
+    }
   }
 }
 
