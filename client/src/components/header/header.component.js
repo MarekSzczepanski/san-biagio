@@ -8,7 +8,8 @@ import rope from "../../assets/png/rope.png";
 class Header extends React.Component {
   componentDidMount() {
     animation(document.querySelectorAll("li"), "scale", 0, 0.8, 0.5);
-    animation(document.querySelector("[data-header-img]"), "opacity", 0.1, 5);
+    animation(document.querySelector(".headerBackground"), "opacity", 0, 4);
+    animation(document.querySelector(".logoContainer"), "opacity", 0, 3, 1);
   }
   scrollToSection = (e) => {
     document
