@@ -109,6 +109,9 @@
   border-radius: 50%;
 }
 @media (min-width: 1400px) {
+  .testimonialsSection {
+    height: calc(100vh + 4rem);
+  }
   .testimonialsWrap {
     margin-top: 1rem;
   }
