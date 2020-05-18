@@ -74,3 +74,147 @@
 #branchRight {
   left: 33.8rem;
 }
+
+@media (min-width: 1400px) {
+  .contactP {
+    font-size: 1.4rem;
+  }
+  .contactIcon {
+    font-size: 1.4rem;
+  }
+  #phoneIcon {
+    left: $contactPhoneAndEnvelopeSpace1400;
+  }
+  #envelopeIcon {
+    left: calc(#{$contactPhoneAndEnvelopeSpace1400 + -7.5rem});
+  }
+  #companyName {
+    left: calc(#{$contactCircleDiameter1400 - 0.5rem});
+  }
+  #adress {
+    left: calc(#{$contactCircleDiameter1400 + 1.6rem});
+  }
+  #REGON {
+    left: calc(#{$contactREGONandNIPspace1400} - 0.3rem);
+  }
+  #NIP {
+    left: calc(#{$contactPhoneAndEnvelopeSpace1400 + -3.7rem});
+  }
+  #accountNumberHeading {
+    left: calc(#{$contactCircleDiameter1400 + 1.6rem});
+  }
+  #accountNumber {
+    left: calc(#{$contactCircleDiameter1400} - 0.4rem);
+    & p {
+      font-size: 1.3rem;
+    }
+  }
+  #accountSwift {
+    left: calc(#{$contactCircleDiameter1400 + 0.6rem});
+  }
+  .contactOliveBranch {
+    width: 17rem;
+  }
+  #branchLeft {
+    left: -20rem;
+  }
+  #branchRight {
+    left: 38.8rem;
+  }
+}
+@media (min-width: 1700px) {
+  .contactP {
+    font-size: 1.7rem;
+  }
+  .contactIcon {
+    font-size: 1.7rem;
+  }
+  #phoneIcon {
+    left: $contactPhoneAndEnvelopeSpace1700;
+  }
+  #envelopeIcon {
+    left: calc(#{$contactPhoneAndEnvelopeSpace1700 + -8.6rem});
+  }
+  #companyName {
+    left: calc(#{$contactCircleDiameter1700 + 1rem});
+  }
+  #adress {
+    left: calc(#{$contactCircleDiameter1700 + 3.2rem});
+  }
+  #REGON {
+    left: calc(#{$contactREGONandNIPspace1700} + 0.3rem);
+  }
+  #NIP {
+    left: calc(#{$contactPhoneAndEnvelopeSpace1700 + -3.2rem});
+  }
+  #accountNumberHeading {
+    bottom: 5.7rem;
+    left: calc(#{$contactCircleDiameter1700 + 3.2rem});
+  }
+  #accountNumber {
+    bottom: 1.5rem;
+    left: calc(#{$contactCircleDiameter1700} - 0.4rem);
+    & p {
+      font-size: 1.55rem;
+    }
+  }
+  #accountSwift {
+    left: calc(#{$contactCircleDiameter1700 + 1.4rem});
+  }
+  .contactOliveBranch {
+    width: 20rem;
+  }
+  #branchLeft {
+    left: -23rem;
+  }
+  #branchRight {
+    left: 44.6rem;
+  }
+}
+@media (min-width: 1900px) {
+  .contactP {
+    font-size: 2rem;
+  }
+  .contactIcon {
+    font-size: 2rem;
+  }
+  #phoneIcon {
+    left: $contactPhoneAndEnvelopeSpace1900;
+  }
+  #envelopeIcon {
+    left: calc(#{$contactPhoneAndEnvelopeSpace1900 + -8.6rem});
+  }
+  #companyName {
+    left: calc(#{$contactCircleDiameter1900 + 1rem});
+  }
+  #adress {
+    left: calc(#{$contactCircleDiameter1900 + 3.2rem});
+  }
+  #REGON {
+    left: calc(#{$contactREGONandNIPspace1900} - 0.3rem);
+  }
+  #NIP {
+    left: calc(#{$contactPhoneAndEnvelopeSpace1900 + -3.7rem});
+  }
+  #accountNumberHeading {
+    left: calc(#{$contactCircleDiameter1900 + 3.7rem});
+  }
+  #accountNumber {
+    left: calc(#{$contactCircleDiameter1900} + 1rem);
+    & p {
+      font-size: 1.7rem;
+    }
+  }
+  #accountSwift {
+    left: calc(#{$contactCircleDiameter1900 + 2.3rem});
+  }
+  .contactOliveBranch {
+    width: 24rem;
+  }
+  #branchLeft {
+    left: -27rem;
+  }
+  #branchRight {
+    left: 51rem;
+  }
+}
